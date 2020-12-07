@@ -1,1 +1,202 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+
+/* *{
+    border:1px solid white;
+} */
+body{
+    background:black;
+}
+header{
+    background:black;
+    border:1px solid black;
+    
+}
+h1{
+    color:white;
+    background:black;
+    width:100%;
+    /* font-family:"Ceviche One",cursive;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color: red; */
+    font-size:80px;
+    
+}
+nav{
+    display:flex;
+    margin-left:10%;
+    height:50px;
+    width:500px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a{
+    display:flex;
+    text-decoration: none;
+    width:100px;
+    height:50px;
+    align-items:center;
+    justify-content:space-evenly;
+    font-size:30px;
+    color:white;
+    background:black;
+    /* font-family:"Ceviche One",cursive;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color: red; */
+}
+
+
+
+/*First section style*/
+
+.first{
+    display:flex;
+    /* font-family:"Ceviche One",cursive; */
+    color:white;
+    width:100%;
+    margin-bottom:2%;
+    /* border:10px solid lightgrey; */
+}
+.first img{
+    display:flex;
+    height:100%;
+    width:50%;
+    margin-left:2%;
+}
+.bio{
+    /* border:5px solid white; */
+    display:flex;
+    height:750px;
+    width:75%;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content:center;
+    margin-left:10%;
+    margin-right:5%;
+    padding:10px;
+    
+}
+.bio div{
+    display:flex;
+    width:100%;
+    height:10%;
+    flex-flow:column wrap;
+}
+.bio h2{
+    /* border:2px solid white; */
+    display:flex;
+    font-size:35px;
+    justify-content: flex-start;
+
+}
+
+
+.bio p{
+    display:box;
+    justify-content:flex-start;
+    font-size:30px;
+    margin-right:400px;
+    transition:1sec;
+}
+
+button{
+    height:60px;
+    width:200px;
+    color:white;
+    background:black;
+    font-size:150%;
+    /* font-family:"Ceviche One",cursive; */
+    transition:.7sec;
+}
+button:hover{
+    color:red;
+}
+.second{
+    display:box;
+    
+}
+.gallery{
+    display:flex;
+    flex-flow:row wrap;
+    padding:2%;
+
+}
+.gallery img{
+    height:500px;
+    margin:10px;
+}
+.gallery p{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    width:100%;
+    color:white;
+    /* font-family:"Ceviche One",cursive;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color: red; */
+    font-size:40px;
+
+}
+
+footer{
+    display:flex;
+    border:1px solid white;
+    color:white;
+    height:15vh;
+    justify-content:center;
+    flex-flow:column;
+    align-items: center;
+}
+footer h3{
+    font-size:30px;
+    padding:5px;
+    margin-bottom:10%;
+}
+footer button{
+    text-align:center;
+}
