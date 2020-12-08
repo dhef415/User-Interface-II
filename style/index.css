@@ -163,6 +163,7 @@ button:hover{
     background-color:white;
     color:black;
 }
+/*Second + Gallery*/
 .second{
     display:box;
     
@@ -178,11 +179,7 @@ button:hover{
     border-radius:10px;
 }
 .gallery p{
-    display:flex;
-    justify-content:center;
-    align-content:center;
-    align-items:center;
-    flex-wrap:wrap;
+    text-align:center;
     width:100%;
     color:white;
     /* font-family:"Ceviche One",cursive;
@@ -267,16 +264,26 @@ footer button{
         margin-right:20%;
         margin-left:20%;
     }
-    .second{
-        display:flex;
-        justify-content:flex-start;
-        flex-flow:row wrap;
-        
+    
+    .gallery{
+        width:100%;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
     }
-    
-    
-    
-       
+    .gallery p{
+        width:100%;
+
+    }
+    .gallery div{
+        
+        height:100%;
+        width:40%;
+    }
+    .gallery img{
+        height:100%;
+        width:100%;
+    }
 
 
 }
